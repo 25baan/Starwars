@@ -1,0 +1,126 @@
+html {
+    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
+    background-size:  100%;
+}
+body {
+        font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    color: yellow;
+    overflow-y: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    }
+input:hover {
+    opacity: 0.7;}
+/* Estilize o contêiner do áudio para posicionamento */
+.audio-container {
+    position: relative;
+    width: 100%;
+  }
+.mensagem {
+    font-size: 30px;
+    color: yellow;
+    padding: 10px;
+    margin: 100px;
+    max-height: 70vh; /* Define a altura máxima como 70% da altura da janela */
+    position: absolute;
+}
+audio {    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.02;
+    background-color: transparent;
+    transition: opacity 0.5s;
+  }
+  
+  /* Aumente a opacidade quando o mouse estiver sobre o elemento */
+  audio:hover {
+    opacity: 0.7;
+  }
+.sound-button {
+    position: fixed;
+    bottom: 20px; /* Posição vertical a partir do fundo */
+    right: 20px; /* Posição horizontal a partir da direita */
+    width: 30px; /* Largura desejada */
+    height: 30px; /* Altura desejada */
+    cursor: pointer;
+    z-index: 1000; /* Certifique-se de que o botão esteja acima de outros elementos */
+}
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: #99999988;
+}
+html::-webkit-scrollbar-thumb:active {
+    background: #999999;
+}
+.botao-voltar-link {
+    background-color: transparent;
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+.botao-iniciar-mensagem {
+    background-color: transparent;
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+.botao-voltar,
+.botao-iniciar {
+    display: inline-block;
+    padding-right: 20px;
+}
+.imagem-canto-esquerdo {
+    bottom: 20px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.imagem-canto-direito {
+    position: relative;
+    bottom: 20px;
+    right: -560px;
+    width: 300px;
+    height: 200px;
+}
+.redirecionamento {
+    text-align: center;
+    padding: 20px;
+    background-color: #00000000; /* Cor de fundo da caixa de redirecionamento */
+    color: yellow; /* Cor do texto na caixa de redirecionamento */
+    cursor: pointer;
+}
+
+.redirecionamento a {
+    text-decoration: none;
+    color: yellow; /* Cor do texto do link */
+    font-weight: bold;
+}
+.redirecionamentogaleria{
+    text-align: center;
+    padding: 20px;
+    background-color: #00000000; /* Cor de fundo da caixa de redirecionamento */
+    color: yellow; /* Cor do texto na caixa de redirecionamento */
+    cursor: pointer;
+}
+.redirecionamentogaleria a {
+    text-decoration: none;
+    color: yellow; /* Cor do texto do link */
+    font-weight: bold;
+}

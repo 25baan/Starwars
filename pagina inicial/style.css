@@ -1,0 +1,109 @@
+html {
+    background-image: url(https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg);
+    background-size:  100%;
+}
+body {
+        font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    color: yellow;
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical, se necessário */
+    }
+input {
+        font-size: 30px;
+        color: yellow;
+    
+    background-color: transparent;
+    border-color: #00000000;
+    opacity: 0.02;
+    transition: opacity 0.5s;
+}
+input:hover {
+    opacity: 0.7;}
+/* Estilize o contêiner do áudio para posicionamento */
+.audio-container {
+    position: relative;
+    width: 100%;
+  }
+input[type="text"] {
+    width: 215px; /* Largura desejada em pixels */
+    height: 30px; /* Altura desejada em pixels */
+    font-size: 30px; /* Tamanho da fonte desejado */
+
+}
+/* Estilizando o texto do placeholder para amarelo */
+.custom-placeholder::placeholder {
+    color: yellow;
+}
+
+
+#mensagem {
+    font-size: 30px;
+    color: yellow;
+    margin: 100px;
+    padding: 10px;
+    max-height: 70vh; /* Define a altura máxima como 70% da altura da janela */
+    position: absolute;
+}
+
+
+
+
+audio {    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.02;
+    background-color: transparent;
+    transition: opacity 0.5s;
+  }
+  
+  /* Aumente a opacidade quando o mouse estiver sobre o elemento */
+  audio:hover {
+    opacity: 0.7;
+  }
+  /* Estilizando o container para centralizar o conteúdo */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura do container como 100% da altura da janela */
+}
+/* Estilizando o botão de som */
+.sound-button {
+    position: fixed;
+    bottom: 20px; /* Posição vertical a partir do fundo */
+    right: 20px; /* Posição horizontal a partir da direita */
+    width: 30px; /* Largura desejada */
+    height: 30px; /* Altura desejada */
+    cursor: pointer;
+    z-index: 1000; /* Certifique-se de que o botão esteja acima de outros elementos */
+}
+/* Estilos CSS para posicionar as imagens */
+.imagem-canto-esquerdo {
+    bottom: 20px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.imagem-canto-direito {
+    position: relative;
+    bottom: 20px;
+    right: -560px;
+    width: 300px;
+    height: 200px;
+}
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background: #99999988;
+}
+html::-webkit-scrollbar-thumb:active {
+    background: #999999;
+}
