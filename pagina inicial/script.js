@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 imagem1.classList.add('imagem-canto-esquerdo'); // Adicione uma classe
 
                 const linkParaSite1 = document.createElement('a');
-                linkParaSite1.href = 'file:///C:/Users/gabriel/Documents/Programação/pagina%20inicial/index%20caminho%20A.html';
+                linkParaSite1.href = 'index%20caminho%20A.html';
                 linkParaSite1.appendChild(imagem1);
                 mensagem.appendChild(linkParaSite1);
 
